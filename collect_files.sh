@@ -24,6 +24,6 @@ else
         # https://www.geeksforgeeks.org/basename-command-in-linux-with-examples/
         curName=$(basename "$file")
         # https://stackoverflow.com/questions/15529779/unix-mv-backup-numbered
-        cp --backup=numbered "$file" "$to/$curName"
+        cp "$file" "$to/$curName"
     done
 fi
